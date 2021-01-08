@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+.darkerpigment {
+    background-color: bisque;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px
+}
+
+.darkerpigment > * {
+    padding: 10px;
+    color: white;
+}
+
+.lighterpigment {
+    background-color: chocolate;
+    font-size: 12px;
+}
+
+.aside {
+    float: right;
+    max-width: 20%;
+    margin: 75px;
+    right: 100px;
+    background-color: chocolate;
+}
+
+
+.aside > aside > div > img {
+    width: 10vw;
+    border-radius: 100%;
+}
+
+.first {
+    float: left;
+    width: 65%;
+}
+
+.otheraside {
+    float: right;
+}
+
+.adb9cf {
+    color: darksalmon;
+}
+
+html {
+    margin: 100px;
+    border: dashed 1px lightgrey;
+}
+
+b {
+    filter: invert(50%) saturate(100%) brightness(1070%) contrast(100%);
+}
+
+span {
+    padding: 2px;
+    background-color: chocolate;
+    border-radius: 20px 20px;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    font-family: "Pirata One", sans-serif;
+}
+
+ul {
+    max-width: 100%;
+}
+
+aside {
+    display: inline-block;
+}
+
+h1 {
+    color: chocolate;
+}
+
+p {
+    color: #8c929b;
+}
+
+h2 {
+    color: #6b7078;
+}
+
+#li1 {
+    list-style-image: url(../img/1.png)
+}
+
+#li2 {
+    list-style-image: url(../img/2.png)
+}
+
+#li3 {
+    list-style-image: url(../img/3.png)
+}
+
+#li4 {
+    list-style-image: url(../img/4.png)
+}
